@@ -1,0 +1,5 @@
+package com.springboot2.companyManagementSystem.model;
+
+public class Company {
+
+}

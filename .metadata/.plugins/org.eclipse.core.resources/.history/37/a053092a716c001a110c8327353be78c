@@ -1,0 +1,26 @@
+package com.springboot2.companyManagementSystem.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.springboot2.companyManagementSystem.repository.EmployeeRepository;
+
+
+/**
+ * It's a convenience annotation that combines @Controller and @ResponseBody – which eliminates 
+ * the need to annotate every request handling method of the controller class with the @ResponseBody annotation.
+ * Every request handling method of the controller class automatically serializes return objects into HttpResponse.
+ * @Controller is simply a specialization of the @Component class and 
+ * allows implementation classes to be autodetected through the classpath scanning.
+ * A controller is a class that handles request and responds with informations of some sort(Spring MVC framework concept)
+ */
+@RestController
+public class EmployeeController {
+	/**
+	 * @Autowired annotation allows Spring to resolve and inject collaborating beans into your bean.
+	 */
+	@Autowired
+	EmployeeRepository employeeRepository;
+	
+	
+}

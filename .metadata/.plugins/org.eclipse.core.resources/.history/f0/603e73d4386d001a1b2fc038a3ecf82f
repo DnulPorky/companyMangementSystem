@@ -1,0 +1,5 @@
+package com.springboot2.companyManagementSystem.exception;
+
+public class GlobalExceptionHandler {
+
+}

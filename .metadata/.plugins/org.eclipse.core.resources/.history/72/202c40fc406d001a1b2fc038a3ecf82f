@@ -1,0 +1,11 @@
+package com.springboot2.companyManagementSystem.exception;
+
+/**
+ * 
+ * Global Exception Handler is a type of workflow designed to determine the project’s behavior 
+ * when encountering an execution error.Only one Global Exception Handler can be set per automation project.
+ *
+ */
+public class GlobalExceptionHandler {
+
+}
