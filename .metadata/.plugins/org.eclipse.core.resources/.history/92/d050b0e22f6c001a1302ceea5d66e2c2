@@ -1,5 +1,0 @@
-package com.springboot2.companyManagementSystem.controller;
-
-public class EmployeeController {
-
-}
